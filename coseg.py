@@ -105,7 +105,7 @@ def generate_heatmap(normalized_linkage_df: pd.DataFrame):
 def main():
     hist1_data = read_data()
     calculate_normalized_linkage(hist1_data)
-    generate_heatmap(calculate_normalized_linkage(hist1_data))
+  #  generate_heatmap(calculate_normalized_linkage(hist1_data))
 
     sys.exit(0)
 
